@@ -1,0 +1,68 @@
+## Example config yaml for HA
+
+climate:
+  - platform: gree
+    name: Ducted heatpump main
+    host: 192.168.0.110
+    port: 7000
+    mac: 9424b80384f9
+    encryption_key: <key>
+    uid: 3431191
+    zone_id: 0
+    master: true
+  - platform: gree
+    name: Ducted heatpump zone 1
+    host: 192.168.0.110
+    port: 7000
+    mac: 9424b80384f9
+    encryption_key: <key>
+    uid: 3431191
+    zone_id: 1
+  - platform: gree
+    name: Ducted heatpump zone 2
+    host: 192.168.0.110
+    port: 7000
+    mac: 9424b80384f9
+    encryption_key: <key>
+    uid: 3431191
+    zone_id: 2
+  - platform: gree
+    name: Ducted heatpump zone 3
+    host: 192.168.0.110
+    port: 7000
+    mac: 9424b80384f9
+    encryption_key: <key>
+    uid: 3431191
+    zone_id: 3    
+  - platform: gree
+    name: Ducted heatpump zone 4
+    host: 192.168.0.110
+    port: 7000
+    mac: 9424b80384f9
+    encryption_key: <key>
+    uid: 3431191
+    zone_id: 4
+  - platform: gree
+    name: Ducted heatpump zone 5
+    host: 192.168.0.110
+    port: 7000
+    mac: 9424b80384f9
+    encryption_key: <key>
+    uid: 3431191
+    zone_id: 5
+  - platform: gree
+    name: Ducted heatpump zone 6
+    host: 192.168.0.110
+    port: 7000
+    mac: 9424b80384f9
+    encryption_key: <key>
+    uid: 3431191
+    zone_id: 6
+  - platform: gree
+    name: Ducted heatpump zone 7
+    host: 192.168.0.110
+    port: 7000
+    mac: 9424b80384f9
+    encryption_key: <key>
+    uid: 3431191
+    zone_id: 7    
